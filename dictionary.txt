@@ -1,0 +1,18 @@
+Data are given in four groups:
+enrollment
+iss (in-school suspensions)
+ooss (out-of-school suspensions)
+expulsion
+
+Each group is subdivided by race/ethnicity using the naming convention '[group]_[race abbreviation]'.
+
+HI - Hispanic
+AM - American Indian/Alaska Native
+AS - Asian
+HP - Native Hawaiian/Pacific Islander
+BL - Black
+WH - White
+TR - Two or more races
+
+Percentages for each subdivision are given by adding the '_p' suffix.
+Composition index for discipline actions are given by adding the '_comp' suffix.

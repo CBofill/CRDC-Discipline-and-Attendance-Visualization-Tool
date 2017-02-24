@@ -16,7 +16,10 @@ Create a proof-of-concept report showing the potential results of such a tool. F
 ## File descriptions
 - `Data of Interest.pdf`: Defines the initial desired output of the report, with thresholds for flagging
 - `SampleDataVisualization.pdf`: Provides examples of how the report may look
-  ### data files
+- 'OCRReport.ipynb': Jupyter notebook to create the initial proof-of-concept report
+- 'calculated_data.csv': Data prepped for visualization
+- 'dictionary.txt': Explanation of feature naming conventions for calculated_data.csv
+### data files
 - `NeedDistrict_Part1.csv`: [need to update with description]
 - `NeedDistrict_Part2.csv`: [need to update with description]
 - `ASecondDist_Part1.csv`: [need to update with description]

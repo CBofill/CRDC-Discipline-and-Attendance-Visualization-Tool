@@ -8,6 +8,15 @@ html{
 }
 
 h1 { font-size: 2em; margin-bottom: 0.75em; }
+table       { margin-bottom: 1.4em;
+			  margin-left: 12%;
+			  width:75%;
+			  align:'center';
+			  border-collapse:collapse;
+			  text-align: right;
+			}
+thead th    { background-color: rgba(100,181,205,0.5); }
+
 
 img {
     max-width:100%; 
@@ -29,7 +38,7 @@ img {
 .image {
    display:inline-block;
     padding: 5px;
-    width: 33%;
+    width: 48%;
     @media (#{$tablet}){
         width: 50%;
     }

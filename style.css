@@ -1,0 +1,42 @@
+$tablet: 'max-width: 1024px';
+$mobile: 'max-width: 767px';
+html{ 
+    box-sizing:border-box;
+    & * {
+        box-sizing:inherit;
+    }
+}
+
+h1 { font-size: 2em; margin-bottom: 0.75em; }
+
+img {
+    max-width:100%; 
+    height:auto;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+
+    .imgContainer{
+        width: 100%;
+        line-height: 0;
+        font-size: 0;
+    }
+
+}
+
+.image {
+   display:inline-block;
+    padding: 5px;
+    width: 33%;
+    @media (#{$tablet}){
+        width: 50%;
+    }
+    @media (#{$mobile}){
+        width: 100%;
+    }
+    img {
+        vertical-align:top;
+    }
+}
